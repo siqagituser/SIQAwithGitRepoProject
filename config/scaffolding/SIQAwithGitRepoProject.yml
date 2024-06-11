@@ -27,7 +27,47 @@ services:
   packages:
   - name: SIQAwithGitRepoProject
     version: "1.0"
+- serviceName: project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
+  packages:
+  - name: SIQAwithGitRepoProject
+    version: "1.0"
 configurationVariables:
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.keyStore
+  : ""
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.networkProtocol
+  : tcp
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.blockingTimeout
+  : "5000"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.blockingTimeout
+  : "5000"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.serverName
+  : vmiboint01
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
+  : "5000"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
+  : "false"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.expireTimeout
+  : "5000"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.serverName
+  : vmiboint01
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.password
   : "{AES}B2Xqma4Ost5nVUiXctJydQ=="
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.otherProperties
@@ -36,34 +76,44 @@ configurationVariables:
   : "0"
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.transactionType
   : LOCAL_TRANSACTION
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.keyStore
-  : ""
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
+  : "1"
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.databaseName
   : SIQACloud
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.poolable
-  : "false"
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.driverType
-  : Progress® DataDirect®
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.blockingTimeout
-  : "5000"
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.serverName
-  : vmiboint01
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
+  : ""
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.user
   : sa
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
+  : "20"
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+  : SIQACloud
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
+  : LOCAL_TRANSACTION
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
+  : sa
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.minimumPoolSize
   : "1"
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.startupBackoffSecs
-  : "10"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.trustStore
+  : ""
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolIncrementSize
   : "1"
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.networkProtocol
   : tcp
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionEnabled
   : "false"
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.expireTimeout
-  : "5000"
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.otherProperties
+  : loginTimeout=60;driverType=thin;
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionManagerSettings.maximumPoolSize
   : "20"
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.datasourceClass
@@ -72,5 +122,5 @@ configurationVariables:
   : "1433"
   ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.trustStore
   : ""
-  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAccount.connectionSettings.dbType
-  : MSSQL
+  ? artConnection.SIQAwithGitRepoProject.project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
+  : "{AES}B2Xqma4Ost5nVUiXctJydQ=="
