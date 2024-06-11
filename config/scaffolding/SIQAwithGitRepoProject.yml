@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SIQAwithGitRepoProject
+  gitServerName: siqagituser
+  gitUrl: https://github.com/siqagituser/SIQAwithGitRepoProject
+  gitUsername: siqagituser
+  gitBranch: main
