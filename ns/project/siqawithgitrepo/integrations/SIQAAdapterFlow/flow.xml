@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBNewInsert" VALIDATE-IN="" VALIDATE-OUT="">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBNewInsert1" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -29,7 +29,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">DBNewInsertInput</value>
+        <value name="field_name">DBNewInsert1Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -186,10 +186,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Name;1;0" TO="/DBNewInsertInput;2;0/Name;1;0">
+<MAPCOPY FROM="/Name;1;0" TO="/DBNewInsert1Input;2;0/Name;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Sal;1;0" TO="/DBNewInsertInput;2;0/Sal;1;0">
+<MAPCOPY FROM="/Sal;1;0" TO="/DBNewInsert1Input;2;0/Sal;1;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
@@ -224,6 +224,15 @@
 
 <Values version="2.0">
   <value name="xml">project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:DatabaseNewAccount</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
 </Values>
 </DATA>
 </MAPSET>
