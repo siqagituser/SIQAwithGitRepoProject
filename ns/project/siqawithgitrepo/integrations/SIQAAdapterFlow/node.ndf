@@ -15,40 +15,6 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">Name</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">Sal</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -79,16 +45,16 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">flowqa</value>
-    <value name="lastModifiedDate">1718084203771</value>
+    <value name="createdBy">siqaauto</value>
+    <value name="createdDate">1696946355847</value>
+    <value name="lastModifiedDate">1696946355847</value>
+    <record name="edgeServer" javaclass="com.wm.util.Values">
+      <value name="group">Default</value>
+      <value name="id">default</value>
+      <value name="name">Cloud Execution</value>
+    </record>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
-    <array name="appList" type="record" depth="1">
-      <record javaclass="com.wm.util.Values">
-        <value name="providerName">WmJDBCAdapter</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-      </record>
-    </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -96,11 +62,11 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">DBNewInsert1</value>
+          <value name="operationName">DBInsert</value>
+          <null name="description"/>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
-          <value name="connectionType">sagcloud</value>
-          <value name="projectName">project.siqawithgitrepo</value>
+          <value name="projectName">edge.siqaadapscaffold1696917055812</value>
         </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
@@ -129,20 +95,17 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_2</value>
+          <value name="connectionName">SIQAAdapScaffDB</value>
           <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
+        <value name="connectionNSName">project.siqawithgitrepo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SIQAAdapScaffDB</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
-        <value name="nodePathNew">0</value>
-        <number name="lineNumberForDebug" type="Long">1</number>
-        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
